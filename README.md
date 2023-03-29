@@ -1,26 +1,30 @@
 # Final Team Project - LAB 12 [ Together ]
-<img width="177" alt="2023-03-11_2 06 04" src="https://user-images.githubusercontent.com/119388929/228250471-d573d410-0307-4434-927c-b4390edd163b.png">
+
+![image](https://user-images.githubusercontent.com/94541099/228397630-638f9c5e-68f1-4e01-9ba2-684330e19e9c.png)
 
 # 프로젝트 정보
-2023.03.09 - 2023.03.29
+2023.03.09 - 2023.03.29 **[타잉 반응형 프로젝트]**
 <br/>
-완성보다는 ~~?
 
-# 기술스택 🛠
-<p herf="https://skillicons.dev">
-  <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> 
-   <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white"> 
-  <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> 
-    <img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black"> 
-    <img src="https://img.shields.io/badge/node.js-339933?style=for-the-badge&logo=Node.js&logoColor=white">
-     <img src="https://img.shields.io/badge/firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=white">
-    <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
-</p>
+# 팀원 소개
 
-# 프로젝트 목표 
-#### [TOGETHER] 코드리뷰, 페어프로그래밍 :arrow_right:  코드리뷰, 6명 비빔밥 프로그래밍
-#### [BASIC] 욕심을 덜자 :arrow_right:  욕심을 부렸다...
-#### [UP] 데일리 스크럼, 회고 + 기록 :arrow_right:  데일리 스크럼,  회고 + 기록
+[강수영](https://github.com/sykang013) | [구아영](https://github.com/guahyoung) | [박세은](https://github.com/senasoon) | [변경섭](https://github.com/kyungseob7)  | [임철진](https://github.com/imironjin) | [김주현](https://github.com/pingandthepong)
+:--: | :--: | :--: |:--:| :--: |:--:
+|🏊‍♀️|🍠|☕️|🚇|🔩👖|🦉|
+
+## 프로젝트 목표🔥
+완성보다는 **성장**💪
+
+- 웹 접근성 준수를 위해 대체 텍스트 제공, 마우스로 조작할 수 있는 기능은 키보드로 접근 및 조작이 가능하게 하며 폼 컨트롤, 명도대비 고려
+- 웹 표준 준수를 위한 적절한 헤딩 사용 및 시멘틱 마크업
+- 크로스 브라우징 체크, 검색엔진 최적화 및 성능 최적화
+- 반응형 웹 구현 / 애니메이션 활용 / 이미지 다루기
+- Firebase 활용
+
+## 팀원 목표⚽
+**[TOGETHER] 코드리뷰, 페어프로그래밍 :arrow_right:  코드리뷰, 6명 비빔밥 프로그래밍**
+**[BASIC] 욕심을 덜자 :arrow_right:  욕심을 부렸다...**
+**[UP] 데일리 스크럼, 회고 + 기록 :arrow_right:  데일리 스크럼,  회고 + 기록**
 - 수영 : 기본기 다지기! </br>
 - 아영 : 리액트랑 친해지기! </br>
 - 주현 : 프로젝트가 어떻게 진행되는지 경험하고, 멋진 팀원분들의 퍼포먼스를 보며 감탄하기! </br>
@@ -29,17 +33,57 @@
 - 철진 : 배운것들 잘 비벼서 맜있게 먹기! </br>
 
 
-# 
+# [🔗➡️배포 주소](https://together-taing.netlify.app/)
+
+**타잉 반응형 프로젝트의 배포된 결과물을 볼 수 있는 사이트 입니다.**
+
+# 기술스택 🛠
+
+![image](https://user-images.githubusercontent.com/94541099/228399100-0bf9658a-4657-4092-8c0c-aa38f9c748ef.png)
 
 # 주요기능
+**[랜딩 페이지]**
+- **Firebase**로부터 이미지를 불러와 화면에 동적으로 렌더링
+- **GSAP**의 **`스크롤 트리거`** 와 **`fromTo`** 등을 이용한 애니메이션 구현
+- **CSS Animation**을 통한 **`Auto Carousel`**
+<br>
 
-# 배포 주소
-https://together-taing.netlify.app/
+**[메인 페이지]**
+- **React Portal**과 **LocalStorage**를 활용한 모달 팝업.
+- **Firebase**로부터 컨텐츠의 정보와 이미지를 불러와 **`react-slick`** 을 활용한 **`Carousel`** 로 **동적으로 렌더링**
+- **Firebase**의 **Authentication**을 활용한 **로그아웃**
+<br>
 
-# 팀 소개
+**[회원가입 페이지]**
+- 회원가입 진행 시, 이메일과 비밀번호 유효성 검사 통과 후 **Firebase의 메서드를 활용한 회원가입**
+<br>
 
+**[로그인 페이지]**
+- 로그인 진행 시, 이메일과 비밀번호를 통한 **Firebase 메서드를 활용한 로그인**
+<br>
 
+**[프로필 페이지]**
+- 현재 로그인 한 유저에 해당하는 프로필들의 이름과 이미지를 **Firebase**로 부터 동적으로 렌더링
+- 유저 프로필의 개수가 4개를 초과하지 않도록 조건 설정
+<br>
 
+**[프로필 편집/삭제 페이지]**
+- **Firebase database**를 활용해 프로필 이미지, 이름 **생성 및 삭제 기능** 구현
+- 프로필 페이지에서 클릭한 프로필을 **`useLocation`** 을 활용해 **URL** 정보를 가져와 해당 프로필의 이름 수정이 가능
+<br>
+
+**[프로필 추가 페이지]**
+- 프로필 이름과 이미지 업로드 시, **Firebase**에 추가
+- 사진 업로드 시, 어떤 사진을 선택했는지 화면에 렌더링
+<br>
+
+**[검색 페이지]**
+- **`Debounce`** 와 **Firebase**의 쿼리문을 이용한 **컨텐츠 검색 기능** 구현
+- **LocalStorage**를 사용한 **최근 검색어 저장 기능** 구현
+
+<br>
+<br>
+<br>
 
 
 
