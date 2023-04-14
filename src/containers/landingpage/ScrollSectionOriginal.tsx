@@ -3,6 +3,7 @@ import MessageAd from '@/components/landing/MessageAd';
 import CarouselScroll from '@/components/landing/CarouselScroll';
 
 const StScrollSectionOriginal = styled.section`
+  /* border: 1px solid orange; */
   padding: var(--paddingL);
   display: flex;
   flex-flow: column nowrap;
