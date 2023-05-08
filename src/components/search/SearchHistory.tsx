@@ -14,7 +14,7 @@ const StRecent = styled.div`
   button {
     border: 0;
     background-color: transparent;
-    ${getFontStyle('LabelS')};
+    ${getFontStyle('ParagraphM')};
   }
 
   div:first-child {
@@ -24,7 +24,7 @@ const StRecent = styled.div`
   }
 
   h2 {
-    ${getFontStyle('LabelM')};
+    ${getFontStyle('LabelL')};
     color: var(--gray200);
   }
 
@@ -38,7 +38,7 @@ const StRecent = styled.div`
     display: flex;
     align-items: center;
     gap: ${rem(16)};
-    ${getFontStyle('ParagraphS')};
+    ${getFontStyle('ParagraphM')};
   }
 
   @media (min-width: 768px) {
@@ -66,7 +66,7 @@ const StRecent = styled.div`
     }
 
     button {
-      ${getFontStyle('LabelL')};
+      ${getFontStyle('ParagraphL')};
     }
   }
 `;
@@ -76,6 +76,7 @@ const StRemoveAll = styled.button`
   display: flex;
   align-items: center;
   gap: ${rem(4)};
+  padding: 0;
 
   @media (min-width: 1920px) {
     gap: ${rem(12)};
@@ -92,6 +93,7 @@ const StKeyword = styled.button`
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
+  padding: 0;
   &:hover {
     color: var(--white);
   }

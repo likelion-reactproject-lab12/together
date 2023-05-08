@@ -6,13 +6,8 @@ export const StSearchInput = styled.form`
   border-bottom: 3px solid var(--white);
   display: flex;
   justify-content: space-between;
-  height: ${rem(24)};
-  padding: ${rem(8.5)} 0;
-
-  @media (min-width: 768px) {
-    height: ${rem(32)};
-    padding: ${rem(12)} 0;
-  }
+  height: ${rem(32)};
+  padding: ${rem(12)} 0;
 
   @media (min-width: 1920px) {
     height: ${rem(57)};
@@ -41,6 +36,8 @@ export const StSearchInput = styled.form`
     @media (min-width: 1920px) {
       ${getFontStyle('LabelXXL')}
     }
+
+    font-size: 16px;
   }
 
   button {

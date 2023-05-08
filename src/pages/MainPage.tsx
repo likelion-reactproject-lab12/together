@@ -77,8 +77,8 @@ const MainPage = () => {
           title="오직 티빙에만 있어요"
           dataName="originals"
           desktopSlides={6}
-          tabletSlides={5}
-          mobileSlides={4}
+          tabletSlides={4}
+          mobileSlides={2}
         />
         <Carousel
           dataName="mini-banner"

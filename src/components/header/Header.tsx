@@ -170,10 +170,10 @@ const Header = () => {
           <button onClick={() => navigateToPage('/')}>
             <Svg
               id="logo"
-              width={46}
-              height={13}
-              tabletW={77}
-              tabletH={24}
+              width={77}
+              height={24}
+              tabletW={105}
+              tabletH={33}
               desktopW={132}
               desktopH={42}
               aria-label="로고"
@@ -186,6 +186,8 @@ const Header = () => {
                   id="live-default"
                   width={20}
                   height={20}
+                  tabletW={27}
+                  tabletH={27}
                   desktopW={34}
                   desktopH={34}
                   aria-label="실시간 방송"
@@ -199,6 +201,8 @@ const Header = () => {
                   id="paramount-default"
                   width={60}
                   height={20}
+                  tabletW={86}
+                  tabletH={27}
                   desktopW={112}
                   desktopH={34}
                   aria-label="파라마운트"
@@ -219,10 +223,10 @@ const Header = () => {
                   {!isSearchModal.isOpen && (
                     <Svg
                       id="search-default"
-                      width={18}
-                      height={18}
-                      tabletW={24}
-                      tabletH={24}
+                      width={24}
+                      height={24}
+                      tabletW={32}
+                      tabletH={32}
                       desktopW={40}
                       desktopH={40}
                     />
@@ -230,12 +234,12 @@ const Header = () => {
                   {isSearchModal.isOpen && (
                     <Svg
                       id="cancel-default"
-                      width={18}
-                      height={18}
-                      tabletW={24}
-                      tabletH={24}
-                      desktopW={40}
-                      desktopH={40}
+                      width={30}
+                      height={30}
+                      tabletW={38}
+                      tabletH={38}
+                      desktopW={46}
+                      desktopH={46}
                     />
                   )}
                 </button>
@@ -243,10 +247,10 @@ const Header = () => {
               <StProfile tabIndex={0}>
                 <Svg
                   id="profile"
-                  width={18}
-                  height={18}
-                  tabletW={24}
-                  tabletH={24}
+                  width={24}
+                  height={24}
+                  tabletW={32}
+                  tabletH={32}
                   desktopW={40}
                   desktopH={40}
                   aria-label="프로필"

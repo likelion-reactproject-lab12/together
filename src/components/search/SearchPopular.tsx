@@ -5,10 +5,10 @@ import { Link } from 'react-router-dom';
 const StPopular = styled.div`
   width: 50%;
   padding-left: ${rem(30)};
-  height: ${rem(340)};
+  height: fit-content;
 
   h2 {
-    ${getFontStyle('LabelM')};
+    ${getFontStyle('LabelL')};
     color: var(--gray200);
   }
 
@@ -24,16 +24,12 @@ const StPopular = styled.div`
   }
 
   @media (min-width: 768px) {
-    height: ${rem(351)};
-
     li:last-child {
       ${getFontStyle('ParagraphM')};
     }
   }
 
   @media (min-width: 1920px) {
-    height: ${rem(613)};
-
     li:last-child {
       ${getFontStyle('ParagraphL')};
     }
@@ -53,16 +49,16 @@ const StKeyword = styled.li`
   justify-content: start;
   align-items: center;
   height: ${rem(18)};
-  margin-top: ${rem(9)};
+  margin-top: ${rem(14)};
 
   span {
-    ${getFontStyle('LabelS')};
+    ${getFontStyle('ParagraphM')};
     color: var(--primary);
     width: ${rem(24)};
   }
 
   a {
-    ${getFontStyle('LabelS')};
+    ${getFontStyle('ParagraphM')};
     color: var(--gray300);
     border: 0;
     background-color: transparent;

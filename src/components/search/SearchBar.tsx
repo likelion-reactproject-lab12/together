@@ -95,10 +95,8 @@ const SearchBar = () => {
         <button>
           <Svg
             id="search-hover"
-            width={22}
-            height={22}
-            tabletW={28}
-            tabletH={28}
+            width={36}
+            height={36}
             desktopW={50}
             desktopH={50}
           />
